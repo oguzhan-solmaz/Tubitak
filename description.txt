@@ -1,0 +1,7 @@
+This Project about the depth and mr image registration.
+
+1-we need to mra.stl. if we haven't we can use slicer3d.
+2-we need to depth.stl. this stl about the depth image.
+3-depthlandmarkoturt.py take depth.stl and put the face landmark on depth stl but we need to angle angle coordinate is view_az270_el-270.png.
+4- mrlandmarkoturt.py take the mr.stl and put mr face landmarks on mr.stl
+5-The final Step registration. we have mr facelandmark(landmarksmr.csv) and depth facelandmarks(landmarksdepth.csv). the final step using csv finally starting registration process and this step give us ms corelasyon error and transformasyon matris.
